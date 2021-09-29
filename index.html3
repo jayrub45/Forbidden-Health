@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
     <title>Basic Health</title>
     <meta charset="utf-8" />
@@ -11,7 +9,6 @@
 
 <body>
     <h1>
-
         <span>A</span>
         <span>r</span>
         <span>t</span>
@@ -30,7 +27,6 @@
         <span>l</span>
         <span>t</span>
         <span>h</span>
-
     </h1>
     <h2>
         Why being healthy is important
@@ -46,8 +42,7 @@
         emotions and someone who use to be overweight I can say it is not healthy to be overweight and It had negative affects.
     </p>
     <a href="https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/health-risks">www.niddk.nih.gov/health-information</a>
-    <h2></h2>
-    </div>
-</body>
 
+
+</body>
 </html>
