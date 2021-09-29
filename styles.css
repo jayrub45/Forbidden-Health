@@ -13,7 +13,7 @@ body {
     background: center/cover url("https://www.nicepng.com/png/full/108-1087831_health-bar-png.png");
     background-size: contain;
     background-repeat: no-repeat;
-    display: flexbox;
+    
 }
 
 .nav_menu {
