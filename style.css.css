@@ -1,18 +1,29 @@
-* {
+ {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 8px;
+    margin: 0 5px;
 }
 
 body {
-    background-color: blue;
+    font-family: montserrat;
 }
 
-.header {
-    background-color: white;
-    padding: 40px;
-    text-align: left;
-    background: center/cover url("https://www.nicepng.com/png/full/108-1087831_health-bar-png.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+nav {
+    background: black;
+    height: 80px;
 }
 
 .nav_menu {
@@ -20,34 +31,23 @@ body {
 }
 
 .nav_menu {
-    padding: 5px;
+    padding: 55px;
     animation: pulse 10s infinite;
-}
-
-@keyframes pulse {
-    5% {
-        background-color: darkblue;
-    }
-    50% {
-        background-color: #0011ff;
-    }
-    100% {
-        background-color: rgb(0, 250, 217);
-    }
 }
 
 .nav_menu a {
     float: left;
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    list-style-type: circle;
+    padding: 10px;
     text-decoration: none;
+    margin: 20px;
 }
 
 .nav_menu a:hover {
-    background-color: mediumblue;
-    color: white;
+    background-color: rgb(96, 1, 248);
+    color: rgb(5, 255, 5);
 }
 
 .columnA,
@@ -93,17 +93,19 @@ p {
 h1 {
     text-shadow: 0 0 3em #2356ff;
     animation: glow 2.5s ease infinite;
-    text-align: center;
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 @keyframes glow {
     0%,
     100% {
-        text-shadow: 0 0 1em #1041ff, 0 0 3em #1041ff, 0 0 10em #1041ff, 0 0 10em #1041ff, 0 0 0.04em #1041ff;
-        color: #28d7fe;
+        text-shadow: 0 0 1em #38ff10, 0 0 3em #1041ff, 0 0 10em #1041ff, 0 0 10em #1041ff, 0 0 0.04em #1041ff;
+        color: #000000;
     }
     50% {
         text-shadow: 0 0 0.5em #082180, 0 0 1.5em #082180, 0 0 5em #082180, 0 0 5em #082180, 0 0 0.02em #082180;
-        color: #028180;
+        color: #5c04ff;
     }
 }
